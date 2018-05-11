@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="homepage.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="./OwlCarousel2-2.3.4//dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="topbar">
+            <div class="container">
+                <div class="topbar-left">
+                    <ul>
+                        <li class="support-email">
+                            <a href="#">
+                                <i class="fas fa-envelope"></i>support@website</a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-phone"></i> (007) 123 456 7890 </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="topbar-right text-right">
+                    <ul class="list-inline social-icons color-hover">
+                        <li class="social-facebook">
+                            <a href="#">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li class="social-twitter">
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="social-instagram">
+                            <a href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="social-dribbble">
+                            <a href="#">
+                                <i class="fab fa-dribbble"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="text-uppercase ">
+                        <li>
+                            <a href="#">Login</a>
+                        </li>
+                        <li>
+                            <a href="#">Register</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="menu" id="headermenu">
+            <nav id="menu" class="mega-menu">
+                <section class="menu-list-item">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 flex-div">
+                                <ul class="menu-logo">
+                                    <li>
+                                        <a href="#">
+                                            <img src="../img/logo.png">
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="menu-links">
+                                    <li>
+                                        <a href="#">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Profile</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Stories</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Pages</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Blog</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </nav>
+        </div>
+    </header>
+    <section id="home-slider">
+        <div class="slider-container">
+            <div id="content-slider">
+                <div id="slider">
+                    <!-- Slider container -->
+                    <div id="mask">
+                        <!-- Mask -->
+                        <ul>
+                            <li id="first" class="firstanimation">
+                                <!-- ID for tooltip and class for animation -->
+                                <a href="#">
+                                    <img src="../img/slider/bg-1.jpg" alt="Cougar" />
+                                </a>
+                                <div class="tooltip">
+                                    <h1>Cougar</h1>
+                                </div>
+                            </li>
+                            <li id="second" class="secondanimation">
+                                <a href="#">
+                                    <img src="../img/slider/bg-2.jpg" alt="Lions" />
+                                </a>
+                                <div class="tooltip">
+                                    <h1>Lions</h1>
+                                </div>
+                            </li>
+                            <li id="third" class="thirdanimation">
+                                <a href="#">
+                                    <img src="../img/slider/bg-4.jpg" alt="Snowalker" />
+                                </a>
+                                <div class="tooltip">
+                                    <h1>Snowalker</h1>
+                                </div>
+                            </li>
+                            <li id="fourth" class="fourthanimation ">
+                                <a href="#">
+                                    <img src="../img/slider/bg-1.jpg" alt="Snowalker" />
+                                </a>
+                                <div class="tooltip">
+                                    <h1>Snowalker</h1>
+                                </div>
+                            </li>
+                            <li id="fifth" class="fifthanimation ">
+                                <a href="#">
+                                    <img src="../img/slider/bg-2.jpg" alt="Snowalker" />
+                                </a>
+                                <div class="tooltip">
+                                    <h1>Snowalker</h1>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- End Mask -->
+                    <div class="progress-bar"></div>
+                    <!-- Progress Bar -->
+                </div>
+                <!-- End Slider Container -->
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="form">
+            <div class="iama">
+                <label>I am a</label>
+                <select>
+                    <option>Man</option>
+                    <option>Woman</option>
+                </select>
+            </div>
+            <div class="seeking">
+                <label>Seeking a</label>
+                <select>
+                    <option>Man</option>
+                    <option>Woman</option>
+                </select>
+            </div>
+            <div class="from">
+                <label>From</label>
+                <input type="number" value="18">
+            </div>
+            <div class="to">
+                <label>To</label>
+                <input type="number" value="24">
+            </div>
+            <div class="search">
+                <button type="button" class="btn btn-warning">Search</button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container timeline-container">
+            <div>
+                <div>
+                    <h2>Step To Find Your Soul Mate</h2>
+                </div>
+                <img src="../img/timeline/divider-skin-default.png" style="width: 20vw">
+                <div>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                        <br> do eiusmod tempor incididunt ut labore et dolore magna</p>
+                </div>
+            </div>
+            <div class="timeline">
+                <ul>
+                    <li>
+                        <div class="timeline-text">
+                            <div class="timeline-heading">
+                                <h4>CREATE PROFILE</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                                    ut labore et dolore magna aliqua. enim ad minim veniam, quis</p>
+                            </div>
+                        </div>
+                        <img src="../img/timeline/timeline-bdr.png">
+                        <div class="timeline-img">
+                            <img src="../img/timeline/tl-01.png">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-img">
+                            <img src="../img/timeline/tl-02.png">
+                        </div>
+                        <img src="../img/timeline/timeline-bdr.png">
+                        <div class="timeline-text">
+                            <div class="timeline-heading">
+                                <h4>FIND MATCH</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                                    ut labore et dolore magna aliqua. enim ad minim veniam, quis</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-text">
+                            <div class="timeline-heading">
+                                <h4>START DATING</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                                    ut labore et dolore magna aliqua. enim ad minim veniam, quis</p>
+                            </div>
+                        </div>
+                        <img src="../img/timeline/timeline-bdr.png">
+                        <div class="timeline-img">
+                            <img src="../img/timeline/tl-03.png">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="app-section">
+        <div class="app-div">
+            <div class="section-header">
+                <h2>Download Our App</h2>
+                <img src="../img/timeline/divider-skin-default.png">
+            </div>
+            <div class="download-app">
+                <div>
+                    <h2>Want Ot Find Your Match..!!
+                        <br> Get Our App Now.</h2>
+                </div>
+                <div>
+                    <a class="button btn-dark btn-lg  full-rounded">
+                        <i class="fab fa-apple" aria-hidden="true"></i>
+                        <span>
+                            <span>available on the</span> app store</span>
+                    </a>
+                    <a class="button btn-lg full-rounded white-bg text-dark">
+                        <img class="img-fluid mr-2" src="../img/play-icon.png" alt="">
+                        <span>
+                            <span>get it on</span> google play</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="total-member">
+        <div class="section-header">
+            <h2>Right now!</h2>
+            <img src="../img/timeline/divider-skin-default.png">
+        </div>
+        <div class="counter">
+            <ul>
+                <li>
+                    <img src="../img/counter/01.png">
+                    <span>1600</span>
+                    <label>Total Members</label>
+                </li>
+                <li>
+                    <img src="../img/counter/02.png">
+                    <span>1300</span>
+                    <label>Online Members</label>
+                </li>
+                <li>
+                    <img src="../img/counter/03.png">
+                    <span>600</span>
+                    <label>Men Online</label>
+                </li>
+                <li>
+                    <img src="../img/counter/04.png">
+                    <span>700</span>
+                    <label>Women Online</label>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="last-added-profiles">
+        <div class="section-header">
+            <h2>Last Added Profiles</h2>
+            <img src="../img/timeline/divider-skin-default.png">
+        </div>
+        <div class="owl-carousel owl-theme last-added-profiles-carolsel">
+            <div class="item">
+                <a href="#">
+                    <img src="../img/profile/01.jpg">
+                    <div class="detail">
+                        <span>Name here</span>
+                        <span>22 Y.O</span>
+                    </div>
+                </a>
+            </div>
+            <div class="item">
+                <a href="#">
+                    <img src="../img/profile/02.jpg">
+                    <div class="detail">
+                        <span>Name here</span>
+                        <span>22 Y.O</span>
+                    </div>
+                </a>
+            </div>
+            <div class="item">
+                <a href="#">
+                    <img src="../img/profile/05.jpg">
+                    <div class="detail">
+                        <span>Name here</span>
+                        <span>22 Y.O</span>
+                    </div>
+                </a>
+            </div>
+            <div class="item">
+                <a href="#">
+                    <img src="../img/profile/06.jpg">
+                    <div class="detail">
+                        <span>Name here</span>
+                        <span>22 Y.O</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="story">
+        <div class="section-header">
+            <h2 style="color: black">They Found True Love</h2>
+            <img src="../img/timeline/divider-skin-default.png">
+        </div>
+        <div class="owl-carousel owl-theme story-carosel">
+            <div class="story-item">
+                <img src="../img/story/01.jpg">
+                <div>
+                    <h5>Quinnel & Jonet</h5>
+                    <img src="" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua. enim ad minim veniam, quis Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam, quis</p>
+                </div>
+            </div>
+            <div class="story-item">
+                <img src="../img/story/02.jpg">
+                <div>
+                    <h5>Quinnel & Jonet</h5>
+                    <img src="" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua. enim ad minim veniam, quis</p>
+                </div>
+            </div>
+            <div class="story-item">
+                <img src="../img/story/03.jpg">
+                <div>
+                    <h5>Quinnel & Jonet</h5>
+                    <img src="" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua. enim ad minim veniam, quis</p>
+                </div>
+            </div>
+            <div class="story-item">
+                <img src="../img/story/04.jpg">
+                <div>
+                    <h5>Quinnel & Jonet</h5>
+                    <img src="" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua. enim ad minim veniam, quis Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam, quis</p>
+                </div>
+            </div>
+            <div class="story-item">
+                <img src="../img/story/05.jpg">
+                <div>
+                    <h5>Quinnel & Jonet</h5>
+                    <img src="" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua. enim ad minim veniam, quis</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="team-section">
+        <div class="section-header">
+            <h2 style="color: black">Why Choose Us</h2>
+            <img src="../img/timeline/divider-skin-default.png">
+            <div class="reason">
+                <p>Eum cu tantas legere complectitur, hinc utamur ea eam. Eum patrioque mnesarchum eu, diam erant convenire
+                    et vis. Et essent evertitur sea, vis cu ubique referrentur, sed eu dicant expetendis. Eum cu</p>
+            </div>
+        </div>
+        <div class="section-header">
+            <h4 style="color: black">WE ARE THE ONE</h2>
+                <img src="../img/story/divider-skin-default.png">
+        </div>
+        <div class="team-container">
+            <div class="team-item">
+                <div class="team-img">
+                    <img src="../img/profile/01.jpg">
+                </div>
+                <div class="team-description">
+                    <div class="team-title">
+                        <h5>Bill Nelson</h5>
+                        <span>Founder</span>
+                    </div>
+                    <p>Nam nisl lacus, dignissim ac tristique ut, scelerisque eu massa. Vestibulum ligula nunc.</p>
+                    <div class="team-socil-icon">
+                        <ul>
+                            <li class="social-facebook">
+                                <a href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="social-twitter">
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="social-gplus">
+                                <a href="#">
+                                    <i class="fab fa-google-plus"></i>
+                                </a>
+                            </li>
+                            <li class="social-dribbble">
+                                <a href="#">
+                                    <i class="fab fa-dribbble"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="team-item">
+                <div class="team-img">
+                    <img src="../img/profile/01.jpg">
+                </div>
+                <div class="team-description">
+                    <div class="team-title">
+                        <h5>Francisco Pierce</h5>
+                        <span>Photographe</span>
+                    </div>
+                    <p>Nam nisl lacus, dignissim ac tristique ut, scelerisque eu massa. Vestibulum ligula nunc.</p>
+                    <div class="team-socil-icon">
+                        <ul>
+                            <li class="social-facebook">
+                                <a href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                    </i>
+                                </a>
+                            </li>
+                            <li class="social-twitter">
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="social-gplus">
+                                <a href="#">
+                                    <i class="fab fa-google-plus"></i>
+                                </a>
+                            </li>
+                            <li class="social-dribbble">
+                                <a href="#">
+                                    <i class="fab fa-dribbble"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="team-item">
+                <div class="team-img">
+                    <img src="../img/profile/01.jpg">
+                </div>
+                <div class="team-description">
+                    <div class="team-title">
+                        <h5>Bill Nelson</h5>
+                        <span>Founder</span>
+                    </div>
+                    <p>Nam nisl lacus, dignissim ac tristique ut, scelerisque eu massa. Vestibulum ligula nunc.</p>
+                    <div class="team-socil-icon">
+                        <ul>
+                            <li class="social-facebook">
+                                <a href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                    </i>
+                                </a>
+                            </li>
+                            <li class="social-twitter">
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="social-gplus">
+                                <a href="#">
+                                    <i class="fab fa-google-plus"></i>
+                                </a>
+                            </li>
+                            <li class="social-dribbble">
+                                <a href="#">
+                                    <i class="fab fa-dribbble"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="team-item">
+                <div class="team-img">
+                    <img src="../img/profile/01.jpg">
+                </div>
+                <div class="team-description">
+                    <div class="team-title">
+                        <h5>Bill Nelson</h5>
+                        <span>Founder</span>
+                    </div>
+                    <p>Nam nisl lacus, dignissim ac tristique ut, scelerisque eu massa. Vestibulum ligula nunc.</p>
+                    <div class="team-socil-icon">
+                        <ul>
+                            <li class="social-facebook">
+                                <a href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                    </i>
+                                </a>
+                            </li>
+                            <li class="social-twitter">
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="social-gplus">
+                                <a href="#">
+                                    <i class="fab fa-google-plus"></i>
+                                </a>
+                            </li>
+                            <li class="social-dribbble">
+                                <a href="#">
+                                    <i class="fab fa-dribbble"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="team-text">
+                <div class="section-header">
+                    <h4 style="color: black">WE ARE THE ONE</h2>
+                        <img src="../img/story/divider-skin-default.png">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                            ut aliquip ex ea</p>
+                </div>
+                <div class="section-header">
+                    <h4 style="color: black">WE ARE THE ONE</h2>
+                        <img src="../img/story/divider-skin-default.png">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                            ut aliquip ex ea</p>
+                </div>
+                <div class="section-header">
+                    <h4 style="color: black">WE ARE THE ONE</h2>
+                        <img src="../img/story/divider-skin-default.png">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                            ut aliquip ex ea</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="footer">
+        <div class="section-header">
+            <h2>Contact Us</h2>
+            <img src="../img/timeline/divider-skin-default.png">
+            <div>
+                <p>Eum cu tantas legere complectitur, hinc utamur ea eam. Eum patrioque mnesarchum eu, diam erant convenire
+                    et vis. Et essent evertitur sea, vis cu ubique referrentur, sed eu dicant expetendis. Eum cu</p>
+            </div>
+        </div>
+        <div class="contact">
+            <div>
+                <i class="fa fa-desktop"></i>
+                <a href="#">somemail@mail.com</a>
+            </div>
+            <div>
+                <i class="fa fa-home"></i>
+                <a>T317 Timber Oak Drive<br>
+                        Sundown, TX 79372</a>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <a href="#">+000 - 123 - 456 - 789</a>
+            </div>
+        </div>
+        <div class="section-header">
+            <h4>WE LOVE TALKING</h2>
+            <img src="../img/story/divider-skin-default.png">
+        </div>
+        <div class="contact-form">
+            <div class="info">
+                <input id="name" placeholder="Your name here" class="form-control" name="name" type="text">
+                <input id="mail" placeholder="Your mail here" class="form-control" name="name" type="text">
+            </div>
+            <input id="message" placeholder="Your message here" class="form-control" name="name" type="text">
+        </div>
+        <button class="full-rounded btn btn-warning"><span>Submit Now</i></span></button>
+    </div>
+    <div class="footer-widget">
+        <div><img src="../img/logo.png"></div>
+        <div class="team-socil-icon">
+            <ul>
+                <li class="social-facebook">
+                    <a href="#">
+                        <i class="fab fa-facebook-f"></i>
+                        </i>
+                    </a>
+                </li>
+                <li class="social-twitter">
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="social-gplus">
+                    <a href="#">
+                        <i class="fab fa-google-plus"></i>
+                    </a>
+                </li>
+                <li class="social-dribbble">
+                    <a href="#">
+                        <i class="fab fa-dribbble"></i>
+                    </a>
+                </li>
+                <li class="social-dribbble">
+                    <a href="#">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./homepage.js"></script>
+    <script src="./OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+</body>
+
+</html>

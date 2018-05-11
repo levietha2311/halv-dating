@@ -1,0 +1,116 @@
+{
+	"id": "ce31ba8c-da04-941a-171b-7fb1bb366fa4",
+	"name": "User",
+	"description": "",
+	"order": [
+		"3e1f1539-d54f-13f8-2898-02f14e5cc684",
+		"192115e9-9fac-2570-2fbf-304a93200416",
+		"12c129a6-280f-4d26-4db4-bfd860b135fd"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1525763320497,
+	"owner": "3975788",
+	"public": false,
+	"requests": [
+		{
+			"id": "12c129a6-280f-4d26-4db4-bfd860b135fd",
+			"headers": "Content-Type: application/json\n//x-access-token: MIIEowIBAAKCAQEAuTDXOQk3vXp4stUD2NXxR3Z5tQoQdnxb2B9k6X7lUXerHYie\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-access-token",
+					"value": "MIIEowIBAAKCAQEAuTDXOQk3vXp4stUD2NXxR3Z5tQoQdnxb2B9k6X7lUXerHYie",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://localhost:4300/api/login",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "ce31ba8c-da04-941a-171b-7fb1bb366fa4",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:4300/api/login",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1525763486945,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"username\": \"abac\",\n\t\"password\": \"1a1\"\n}"
+		},
+		{
+			"id": "192115e9-9fac-2570-2fbf-304a93200416",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:4300/api/register",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "ce31ba8c-da04-941a-171b-7fb1bb366fa4",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:4300/api/register",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1525763432666,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"username\": \"abcaad\",\n\t\"password\": \"zxca\",\n\t\"name\": \"abcdf\",\n\t\"gender\": \"Female\"\n}"
+		},
+		{
+			"id": "3e1f1539-d54f-13f8-2898-02f14e5cc684",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:4300/api/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "ce31ba8c-da04-941a-171b-7fb1bb366fa4",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:4300/api/",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1525763348057,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": ""
+		}
+	]
+}

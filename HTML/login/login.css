@@ -1,0 +1,225 @@
+header{
+    background: black;
+}
+
+#headermenu{
+    z-index: 999;
+    background: black;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0;
+}
+
+a{
+    color: #ffffff!important ;
+}
+
+a:hover{
+    text-decoration: none !important;
+    color: #a395a1!important;
+}
+
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.topbar {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 5px 0px;
+    background: #ffbc05;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.topbar-left{
+    flex: 0 0 50%;
+}
+
+.topbar-right{
+    display: flex;
+    flex: 0 0 50%;
+    justify-content: flex-end;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.topbar-right ul > li{
+    margin: 0 10px;;
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+.topbar-right > ul {
+    display: flex;
+    justify-content: space-between
+}
+
+#telenumber{
+    padding-right: 20px;
+}
+
+.support-email{
+    padding-right: 5px;
+}
+
+.flex-div{
+    display: flex;
+    width: 100%;
+}
+
+.mega-menu .menu-links {
+    width: 100%;
+    justify-content: space-around;
+}
+
+.mega-menu .menu-links > li{
+    font-size: 24px;
+}
+
+.row{
+    width: 100%;
+}
+
+.login-section{
+    background: url("../img/pattern/02.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-section i{
+    padding: 10px;
+}
+
+.facebook-login{
+    background: linear-gradient(90deg, #5ac8fa, #5856d6);
+    font-size: 24px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.google-login{
+    background: linear-gradient(-90deg, #d75a53, #ff2d55);
+    font-size: 24px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-control{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+    height: 60px;
+    color: #ffffff;
+    width: 40vw;
+}
+
+.form-control:focus{
+    background: none;
+    box-shadow: none;
+    border-bottom: 2px solid #ffbc05;
+}
+
+i{
+    color: white;
+}
+
+.input-form{
+    display: flex;
+    align-items: center;
+}
+.full-rounded {
+    border-radius: 50px;
+    padding: 15px;
+    border: none;
+    margin: 10px;
+    background: linear-gradient(90deg,#ffbc05,#ff3b30);
+}
+
+.full-rounded:hover{
+    box-shadow: none;
+}
+
+.login-section div{
+    padding: 2vh;
+}
+
+
+.footer button{
+    background: linear-gradient(90deg,#ffbc05,#ff3b30);
+}
+
+.footer-widget div{
+    padding: 5vh;
+}
+
+.footer-widget{
+    background: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-widget ul{
+    padding: 0;
+}
+
+.footer-widget .fab {
+    padding: 15px;
+    font-size: 30px;
+    width: 70px;
+}
+
+.footer-widget .fa-facebook-f:hover {
+    background: #3B5998;
+    color: white;
+}
+
+.footer-widget .fa-twitter:hover{
+    background: #55ACEE;
+    color: white;
+}
+
+.footer-widget .fa-google-plus:hover{
+    background: #dd4b39;
+    color: white;
+}
+
+.footer-widget .fa-dribbble:hover{
+    background: #ea4c89;
+    color: white;
+}
+
+.footer-widget .fa-youtube:hover{
+    background: #bb0000;
+    color: white;
+}
+
+h4{
+    color: white;
+}

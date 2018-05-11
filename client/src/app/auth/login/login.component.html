@@ -1,0 +1,25 @@
+<div class="container">
+  <h1>Login</h1>
+  <form>
+    <div class="form-group">
+      <label for="name">UserName</label>
+      <input type="text" class="form-control" (keyup)="onKey($event)" #IPusername>
+    </div>
+
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input type="text" class="form-control" (keyup)="onKey1($event)">
+    </div>
+    <div class="form-group">
+      <label for="Status">Status</label>
+      <select [(ngModel)]="selectedStatus" [ngModelOptions]="{standalone: true}" class="form-control">
+        <option *ngFor="let sta of Status" [value]="sta">{{sta}}</option>
+      </select>
+    </div>
+    <button type="submit" class="btn btn-success" (click)="onLogin()">Login</button>
+  </form>
+</div>
+
+<!-- <button mat-button (click)="openSnackBar()" aria-label="Show an example snack-bar">
+  Pizza party
+</button> -->
